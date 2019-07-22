@@ -1,0 +1,20 @@
+Iniciar NodeJS -> npm init --yes
+Comandos para instalar Dependencias
+
+-npm i webpack -> Instala el agrupador en el proyecto
+
+-npm i webpack-cli -> Instala herramienta de webpack para poder utilizar sus Comandos
+
+-npm i style-loader \ 
+                     -> Inyectan archivos CSS al DOM del proyecto automaticamente
+-npm i css-loader   /
+
+-npm i webpack-dev-server -> Instala un servidor de desarrollo para ver proyecto en el navegador
+
+-npm i html-webpack-plugin -> Agrega los archivos html, a la carpeta principal creada por webpack 
+
+Comandos para correr la aplicación
+EN PACKAGE.JS
+
+"build": "webpack -p" -> Convierte el codigo a producción 
+-npm run build -> ejecita el comando para converti el codigo

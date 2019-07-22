@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+    <title>Clima App</title>
+</head>
+
+<body>
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <h1 class="text-white">Aplicación del Clima</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <h1 id="locacion"></h1>
+                        <h3 id="descripcion" class="h4"></h3>
+                        <h3 id="temperatura"></h3>
+                        <ul class="list-group mt-3">
+                            <li id="humedad" class="list-group-item">
+
+                            </li>
+                            <li id="viento" class="list-group-item">
+
+                            </li>
+                            <li id="amanece" class="list-group-item">
+
+                            </li>
+                            <li id="anochece" class="list-group-item">
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <form id="formulario">
+                            <div class="form-group">
+                                <input type="text" id="ciudad" class="form-control" placeholder="Ciudad" autofocus
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" maxlength=3 id="pais" placeholder="Codigo Pais"
+                                    required>
+                            </div>
+                            <div class="alert alert-danger d-none" role="alert">
+
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block" id="btnMostrar">Mostrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
